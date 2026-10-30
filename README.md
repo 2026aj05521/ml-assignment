@@ -51,4 +51,4 @@ Logistic Regression - best AUC and tied best on all other metrics. Highly interp
 ---
 
 ## Streamlit App
-https://YOUR_APP_NAME.streamlit.app
+[https://YOUR_APP_NAME.streamlit.app](https://ml-assignment-ktykiqdscj4ccddnqn2fir.streamlit.app/)
