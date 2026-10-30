@@ -19,7 +19,9 @@ Binary classification to predict whether a breast tumour is malignant (0) or ben
 ---
 
 ## c. GitHub Repository Link
-https://github.com/YOUR_USERNAME/ml-assignment-2
+
+https://github.com/2026aj05521/ml-assignment
+
 
 ---
 
