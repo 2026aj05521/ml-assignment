@@ -49,7 +49,16 @@ with st.sidebar:
 
 if uploaded is None:
     st.info('Upload test_data.csv from the sidebar to get started.') 
-    st.markdown('**Download test_data.csv:** [Click here](https://raw.githubusercontent.com/2026aj05521/ml-assignment/main/test_data.csv)')
+    import requests
+    csv_url = 'https://raw.githubusercontent.com/2026aj05521/ml-assignment/main/test_data.csv'
+    csv_data = requests.get(csv_url).content
+    st.download_button(
+        label='Download test_data.csv',
+        data=csv_data,
+        file_name='test_data.csv',
+        mime='text/csv'
+)
+
     st.stop()
 
 try:
