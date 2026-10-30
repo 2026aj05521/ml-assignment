@@ -48,7 +48,8 @@ with st.sidebar:
     st.markdown('**Dataset:** Wisconsin Breast Cancer | **Features:** 30 | **Instances:** 569')
 
 if uploaded is None:
-    st.info('Upload test_data.csv from the sidebar to get started.')
+    st.info('Upload test_data.csv from the sidebar to get started.') 
+    st.markdown('**Download test_data.csv:** [Click here](https://raw.githubusercontent.com/2026aj05521/ml-assignment/main/test_data.csv)')
     st.stop()
 
 try:
